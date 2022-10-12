@@ -6,15 +6,15 @@ package OOPS;
  *
  */
 
-class Encapsulation {
+class TestEncapsulation {
 	int a;
-	public Encapsulation() {
+	public TestEncapsulation() {
 		a = 20;
 		System.out.println(a);
 	}
 }
 
-class encapsExtend extends Encapsulation{
+class encapsExtend extends TestEncapsulation{
 	int a;
 	public encapsExtend() {
 		this.a = 40;
@@ -22,9 +22,9 @@ class encapsExtend extends Encapsulation{
 	}
 }
 
-class EncapsulationImpl{
+class TestEncapsulationImpl{
 	public static void main(String[] args) {
-		Encapsulation t1 = new Encapsulation();
+		TestEncapsulation t1 = new TestEncapsulation();
 		encapsExtend t2 = new encapsExtend();
 	}
 }

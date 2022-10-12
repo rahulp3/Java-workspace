@@ -1,6 +1,6 @@
 package OOPS;
 
-public class encapsulation {
+class encapsulation {
 	private String country, nationalAnthem, touristSpot;
 
 	public String getCountry() {
